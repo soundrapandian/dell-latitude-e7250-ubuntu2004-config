@@ -16,5 +16,5 @@ Bluetooth HFP Issue
 - Configure /etc/ofono/phonesim.conf
 - usermod -aG bluetooth pulse
 - Clone git://git.kernel.org/pub/scm/network/ofono/ofono.git to /usr/share/ofono
-- Copy bluetooth/startup.sh from this repo to /usr/share/ofono/ and make it executable
-- Add cron `@reboot /usr/share/ofono/startup.sh`
+- Copy bluetooth/etc/init.d/ofono-bt-hfp from this repo to /etc/init.d/ofono-bt-hfp and make it executable
+- Add service `systemctl enable ofono-bt-hfp`
