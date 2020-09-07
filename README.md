@@ -18,3 +18,7 @@ Bluetooth HFP Issue
 - Clone git://git.kernel.org/pub/scm/network/ofono/ofono.git to /usr/share/ofono
 - Copy bluetooth/etc/init.d/ofono-bt-hfp from this repo to /etc/init.d/ofono-bt-hfp and make it executable
 - Add service `systemctl enable ofono-bt-hfp`
+
+Bluetooth HFP Mic Low Volume Issue
+----------------------------------
+Working on...
